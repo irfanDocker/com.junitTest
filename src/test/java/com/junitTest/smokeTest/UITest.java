@@ -28,7 +28,7 @@ public class UITest {
 	public void Vytack1() throws InterruptedException {
 
 //		D.get("");				
-		D.findElement(By.id("txtUsername")).sendKeys("Admin ");
+		D.findElement(By.id("txtUsername")).sendKeys("Admin");
 		D.findElement(By.id("txtPassword")).sendKeys("admin123");
 		D.findElement(By.id("btnLogin")).click();
 
